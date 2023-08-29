@@ -9,5 +9,8 @@
 ### Q3
 ![image](https://github.com/RumaisaKashif/PfFall23/assets/142867414/717cc7a1-6144-478b-a8ff-0f5070d6b161)
 ### Q4
+![image](https://github.com/RumaisaKashif/PfFall23/assets/142867414/441b4e49-8079-43a9-8cfb-bed2b61acaac)
+### Q5
+
 
 
