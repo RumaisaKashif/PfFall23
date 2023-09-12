@@ -1,20 +1,33 @@
+
+
+//int main(int argc, const char * argv[]) {
+    // insert code here...
+    //printf("Hello, World!\n");
+    //return 0;
 #include <stdio.h>
 #include <math.h>
-int main()
-{
-    printf("using the quadratic formula to find roots of the equation f(X)=ax^2+bx+c where a,b,c are integers\n");
-    float a,b,c;
-    printf("enter a:\n");
-    scanf("%f", &a);
-    printf("enter b:\n");
-    scanf("%f", &b);
-    printf("enter c:\n");
-    scanf("%f", &c);
-    float x1,x2;
-    x1=((-1*b)/(2*a))+(sqrt((b*b)-(4*a*c))/(2*a));
-    x2=((-1*b)/(2*a))-(sqrt((b*b)-(4*a*c))/(2*a));
-    printf("the solutions to the equation are:\n");
-    printf("%f\n", x1);
-    printf("%f", x2);
-}
 
+int main(void)
+{
+    int n;
+    printf("lets find sum of squares of n numbers!\n");
+    printf("enter a number n which is grater than 0 but less than 100:\n");
+    scanf("%d", &n);
+    int array[n];
+    int c=0;
+    while (c<n)
+    {
+        printf("enter integer:\n");
+        scanf("%d", &array[c]);
+        c=c+1;
+    }
+    c=0;
+    int sum=0;
+    while (c<n)
+    {
+        sum=sum+array[c]*array[c];
+        c=c+1;
+    }
+    printf("%d", sum);
+    return 0;
+}
