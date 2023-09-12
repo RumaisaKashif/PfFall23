@@ -1,9 +1,5 @@
-
-
-//int main(int argc, const char * argv[]) {
-    // insert code here...
-    //printf("Hello, World!\n");
-    //return 0;
+//Rumaisa Kashif 23k0744
+//code to print sum of squares of n integers
 #include <stdio.h>
 #include <math.h>
 
