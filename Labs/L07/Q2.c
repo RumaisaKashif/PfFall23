@@ -1,3 +1,7 @@
+//Programer: Rumaisa Kashif
+//23K0744
+//Program to divide two numbers without using division operator
+//Date: 10/10/23
 #include <stdio.h>
 
 int main()
