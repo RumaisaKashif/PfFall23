@@ -25,7 +25,7 @@ int main() {
     int arr3[2][2]={0};
     for (int i=0;i<2;i++)
     {
-        for (int j=0;j<=i+1;j++)
+        for (int j=0;j<2;j++)
         {
             arr3[i][j]=arr1[i][j]+arr2[i][j];
             printf("%d\t", arr3[i][j]);
