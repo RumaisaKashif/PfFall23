@@ -6,7 +6,7 @@ Description: implement a function to find sum, maximum and minimum values of an 
 
 #include <stdio.h>
 
-void processArray(int arr[], int n)
+void processArray(int arr[], int n)//note syntax
 {
 	int sum=0;
 	int min=99999;
@@ -48,5 +48,5 @@ int main()
 		printf("please enter element number %d:\n", i+1);
 		scanf(" %d", &arr[i]);
 	}
-	processArray(arr, n);
+	processArray(arr, n);//note syntax
 }
