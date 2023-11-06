@@ -24,11 +24,15 @@ int main()
 
     int result[3][3];
     
-    for (int i=0; i<3; i++) {
-        for (int j=0; j<3; j++) {
+    for (int i=0; i<3; i++) 
+    {
+        for (int j=0; j<3; j++) 
+        {
             int sum= 0;
-            for (int x=0; x<3; x++) {
-                for (int y=0; y<3; y++) {
+            for (int x=0; x<3; x++) 
+            {
+                for (int y=0; y<3; y++) 
+                {
                     sum+=input[i + x][j + y]*filter[x][y];
                 }
             }
