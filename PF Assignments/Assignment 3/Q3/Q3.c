@@ -9,6 +9,8 @@ Q3
 #include <string.h>
 #include <time.h>
 
+//Note: Data guven in the question paper was used. Upon running test case with recordID=101, the case uploaded in Combine.txt file was obtained.
+
 void amalgamateWrite();
 
 int main()
