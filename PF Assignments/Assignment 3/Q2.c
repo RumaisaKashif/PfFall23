@@ -48,6 +48,7 @@ void attributeIn(employee* employee, char* name, char* role)
 
 int main() 
 {
+    printf("Rumaisa Kashif\n23k-0744\n");
     // Seeding
     srand(time(NULL));
 
