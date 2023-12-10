@@ -120,6 +120,7 @@ void calcTotalSalariesPerDept(Employee employees[], int size)
 
 int main() 
 {
+    printf("Rumaisa Kashif\n23k-0744\n");
     Employee employees[]= 
     {
         {1, "Monika", "Arora", 100000, "2014-02-20 09:00:00", "HR"},
