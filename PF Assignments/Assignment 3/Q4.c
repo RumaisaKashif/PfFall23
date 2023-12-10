@@ -23,10 +23,10 @@ typedef struct Employee {
 
 void maxEmployeeSalary(Employee employees[], int size) 
 {
-    char deps[10][20];
-    int maxSalaries[10]={0};
     int maxSalaryIndexes[10]={-1};  
-
+    int maxSalaries[10]={0};
+    char deps[10][20];
+  
     // Initialize arrays with empty strings
     for (int i=0; i<10; i++) 
     {
@@ -35,29 +35,29 @@ void maxEmployeeSalary(Employee employees[], int size)
 
     for (int i=0; i<size; i++) 
     {
-        int departmentIndex=-1;
+        int depIndex=-1;
         for (int j=0; j<10; j++) 
         {
             if (strcmp(employees[i].department, deps[j])==0) 
             {
-                departmentIndex = j;
+                depIndex = j;
                 break;
             } 
             else if (strcmp(deps[j], "")==0) 
             {
                 strcpy(deps[j], employees[i].department);
-                departmentIndex=j;
+                depIndex=j;
                 break;
             }
         }
 
-        if (departmentIndex!=-1) 
+        if (depIndex!=-1) 
         {
             // Update
-            if (employees[i].salary>maxSalaries[departmentIndex]) 
+            if (employees[i].salary>maxSalaries[depIndex]) 
             {
-                maxSalaries[departmentIndex]=employees[i].salary;
-                maxSalaryIndexes[departmentIndex]=i;
+                maxSalaries[depIndex]=employees[i].salary;
+                maxSalaryIndexes[depIndex]=i;
             }
         }
     }
