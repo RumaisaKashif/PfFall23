@@ -22,7 +22,7 @@ bool isPrime(int n, int i)
         }
         else
         {
-            if (i < 2) // Corrected condition
+            if (i < 2) 
             {
                 return true;
             }
