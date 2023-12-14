@@ -1,3 +1,8 @@
+/*
+Programmer: Rumaisa Kashif
+Desc: Write a C program that implements a universal array printing function that works for different data types.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
